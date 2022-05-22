@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE web</title>
+
+    <link rel="stylesheet" href="project2.css">
+</head>
+
+<body>
+    <!--___NAVIGATION__BAR_______________________________________________-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>contact</li>
+        </ul>
+        <img src="menu button.png" alt="" class="menu-btn">
+    </nav>
+
+
+    <!--___HEADER__SECTION_____________________________________________-->
+    <header>
+        <div class="header-content">
+            <h2>Explore the Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Lern more</a>
+        </div>
+    </header>
+
+
+    <!-- ___Events_section_____________________________________________________ -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="bg3.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, magni?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, magni?
+                </p>
+                <a href="#" class="ctn">Lern more</a>
+            </div>
+
+            <div class="col">
+                <img src="bg3.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, magni?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, magni?
+                </p>
+                <a href="#" class="ctn">Lern more</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- ___Explore_section________________________________________________ -->
+    <section class="explore">
+        <div class="exp-content ">
+            <h1>Explore the World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo repellat necessitatibus numquam, optio
+                impedit ratione ea voluptates? Impedit, accusamus ab?</p>
+            <a href="#" class="ctn">Lern more</a>
+        </div>
+    </section>
+
+
+    <!-- ____Tours_________________________________________________ -->
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod reiciendis dolore tempora vero
+                    voluptate amet molestiae, harum nulla asperiores quos.</p>
+                <a href="#" class="ctn">Lern more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="bg3.jpg" alt="">
+                    <img src="bg3.jpg" alt="">
+                    <img src="bg3.jpg" alt="">
+                    <img src="bg3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- _Footer_______________________________________ -->
+
+    <section class="footer">
+        <p>123 Fifth Avenue, NY 10160, New York, USA | phone: 8698589823 | Email: ankitnthakur@gmainl.com</p>
+        <p>Copyrights @ 2022 October Adventure</p>
+    </section>
+
+    <!-- FOR RESPONSIVE MENU BUTTON {java script} -->
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classlist.toggle('mobile-menu')
+        })
+    </script>
+
+
+</body>
+
+</html>
